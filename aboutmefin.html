@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="aboutmefin.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body style="margin:0;background-color: #FFE9CC;text-align:center;">
+        <div class="navbar-test">
+            <div class="navbar-inner" style="width:100%">
+                <a href="index.html" ><img src="logo.jpg" width="100%" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="goback-test">
+            <div class="goback-inner" style="width:100%">
+                <picture>
+                    <source media="(max-width: 650px)"  srcset="abtimgmobile.jpg">
+                    <a onclick="goBack()"><img src="goback.png" width="100%" alt=""></a>
+                </picture>
+                
+            </div>
+        </div>
+        <div class="headding-img">
+            <img class="headding-inner" src="abtimg.jpg" width="70%" alt=""> 
+      </div>
+      <hr style=" height: 1.5px;background-color:black">
+            <hr style=" height: 1.5px;background-color:black"> 
+      
+        <div style="margin-top: 0%;" class="smooth-scroll-wrapper">
+            <div class="content">
+                <section>
+                  <div class="matter">
+                      <picture >
+                        <source media="(max-width: 650px)"  srcset="animatedmobile.jpg">
+                        <img  class="animated" src="animated.jpg" alt="" width="80%" srcset="">
+                      </picture>
+                    
+                        <br /> <sp class="cse">COMPUTER SCIENCE GRADUATE</sp> studying at Vignan's Institute of Information Technology currently looking for good opportunities to utilize my strong analytical skills and technical knowledge to work collaboratively.
+                        <br /><br /> <img src="edu.png" width="56px" >&ensp;<h>EDUCATION</h><br />
+                        <br />I've done my schooling at <sp class="spvn">SRI PRAKASH VIDYANIKETAN</sp>, Intermediate at <sp>SRI CHAITANYA COLLEGE</sp> , and finally pursuing my BTech 3rd year in<sp class="vgn">VIGNAN'S INSTITUTE OF INFORMATION TECHNOLOGY.</sp>
+                        <br /><br /> <img src="skills.png" width="56px"> <h>TECHNICAL SKILLS</h> <br /><br />
+                        My technical skills include (Programming)  <sp class="c">C</sp>, <sp class="cpp">C++</sp> , <sp class="python">PYTHON </sp>
+                        (Web Development) <sp class="html">HTML</sp>&nbsp;,<sp class="css">CSS</sp>&nbsp;,<sp class="django">PYTHON DJANGO</sp>&nbsp;,<sp class="sql">POSTGRESSQL</sp>&nbsp;,&ensp;<sp class="figma">FIGMA</sp>
+                        being a cyber sec enthusiast I gained some knowledge and experience on <sp class="networks">Computer Networks</sp>, cisco packet tracer, and  <sp class="hack">Basics of Ethical Hacking using Linux.</sp>
+                        <br /><br /> <img src="residential-block.png" width="56px">&ensp;<h>ORGANIZATIONS</h><br /><br />
+                        I am the <sp>Web Developer</sp> in technical team and <sp>content developer</sp>  of the <sp>ACM</sp>(Association for Computing Machinery) students chapter organization, as an active member, I had acquired organizational skills and gained some experience in giving seminars, community services, and hosting hackathons collaboratively as I am a member of the VIGNITE 2.0 hackathon organizing committee.
+                        <br /><br /> <img src="hobbies.png" width="76px"> <h>HOBBIES AND INTRESTS </h><br /><br />
+                        I am interested in <sp>TRAVELLING</sp> and exploring new places, when I am free I like to do <sp>FREE-STYLE-FITNESS</sp> as part of my lifestyle, play <sp>GAMES</sp>, and <sp>HANG OUT WITH FRIENDS</sp>.
+                        <br />
+                        <div class="display-img">
+                            
+                        </div>
+                        <div class="social-container">
+                            <div class="social-subcontainer1">
+                                <a href="https://www.linkedin.com/in/pyla-lohit-a646821b2/" target="_blank"><img class="icons" src="linkldn.png" alt=""></a>
+                            </div>
+                            <div class="social-subcontainer2" >
+                                <a href="https://github.com/pylalohit" target="_blank"><img class="icons" src="github.png" alt=""></a>
+                            </div>
+                            <div class="social-subcontainer3" >
+                                <a href="https://www.instagram.com/lohit_pyla.ly/" target="_blank"><img   class="icons" src="instagram.png"  alt=""></a>
+                            </div>
+                    
+                        </div>
+                        <div class="footer">
+                            <div class="res"> <a class = "res1" href="Pyla Lohit Resume 1.pdf" download="Pyla Lohit Resume1" target="_blank">RESUME</a></div>
+                            <span class="span3"><a class="email" style="color:black;text-decoration: none;" href="mailto:pylalohit4@gmail.com">pylalohit4@gmail.com</a></span>
+                        </div>
+                  
+                </section>
+            </div>
+        </div>
+
+        <script>
+            const body = document.body,
+                scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
+                
+                height = scrollWrap.getBoundingClientRect().height,
+                speed = 0.03;
+                
+
+            var offset = 0;
+            
+
+            function smoothScroll() {
+                offset += (window.pageYOffset - offset) * speed;
+
+                var scroll = "translateY(-" + offset + "px) translateZ(0)";
+                scrollWrap.style.transform = scroll;
+
+                callScroll = requestAnimationFrame(smoothScroll);
+            }
+
+            smoothScroll();
+            const content = document.querySelector("section");
+            let currentPos = window.pageYOffset;
+
+            const callDistort = function () {
+                const newPos = window.pageYOffset;
+                const diff = newPos - currentPos;
+                const speed = diff * 0.35;
+
+                content.style.transform = "skewY(" + speed + "deg)";
+                currentPos = newPos;
+                requestAnimationFrame(callDistort);
+            };
+
+            callDistort();
+        </script>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+        </script>
+    </body>
+</html>

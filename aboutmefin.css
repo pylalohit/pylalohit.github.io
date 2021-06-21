@@ -1,0 +1,756 @@
+
+
+
+.navbar-test{
+      position: absolute;
+      right: 2%;
+      width:5%;  
+      top: 0%; 
+}
+
+.res{
+  margin-top:-10px;
+  margin-bottom:10px;
+}
+.res1{
+  font-family: 'Inconsolata', monospace;
+  text-decoration:none;
+  color:black;
+  font-size:25px;
+  font-weight: bold;
+}
+
+
+.smooth-scroll-wrapper {
+    z-index: 2;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.content {
+    width: 100%;
+    margin-top: 10%;
+    
+    
+}
+
+section {
+    transition: transform 0.25s;
+    will-change: transform;
+    width: 100%;
+}
+
+.goback-test{
+      position: absolute;
+      width: 7%;
+      top: 2%;
+      left: 2%;
+  }
+.headding-img{
+      width:70%;
+      margin-left:15%;
+      margin-top:4%;
+      margin-bottom:2%;
+  }
+  .matter{
+    font-family: 'Inconsolata', monospace;
+      justify-content: center;
+      text-align: left;
+      font-size:25px;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  h{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;;
+  }
+  sp{
+      text-decoration: underline;
+      font-style: italic;
+      font-family: 'Archivo', sans-serif;
+      font-weight: bold;
+  }
+  .animated{
+    width: 85%;
+    margin-bottom: 5%;
+}
+  .social-container{
+      display:flex;
+      justify-content:center;
+      
+  }
+  .social-subcontainer1{
+      width:10%;
+  }
+  .social-subcontainer2{
+      width:10%;
+  }
+  .social-subcontainer3{
+      width:10%;
+  }
+  .icons{
+      width:100%;
+  }
+  .contactmail{
+      text-align:center;
+  }
+  .footer{
+      text-align:center;
+  }
+  .social-subcontainer1:hover {
+    transform:  scale(1.2);
+    transition: all .5s;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.social-subcontainer2:hover {
+    transform:  scale(1.2);
+    transition: all .5s;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.social-subcontainer3:hover {
+    transform:  scale(1.2);
+    transition: all .5s;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+  /* animations */
+  .display-img{
+    width:400px;
+    height:200px;
+    border-radius: 5%;
+    z-index: -1;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background-size: contain;
+    display: none;
+   
+}
+
+  @keyframes mymove {
+    from {left: 350px;}
+    to {left: 500px;}
+}
+@keyframes tslmove {
+  from {left: 450px;}
+  to {left: 700px;}
+}
+  .cse:hover ~ .display-img
+  {
+    width: 400px;
+    background-image: url(imagesanime/cse.jpg);
+    display: block;
+    animation: mymove 3s ;
+    
+  }
+  
+  .spvn:hover ~ .display-img
+  {
+    background-image: url(imagesanime/Picture1.jpg);
+    display: block;
+    width: 320px;
+    
+    animation: mymove 3s ;
+    
+  }
+  .vgn:hover ~ .display-img
+  {
+    top: 35%;
+    background-image: url(imagesanime/vgn.jpg);
+    display: block;
+    height: 170px;
+    animation: mymove 3s ;
+    
+  }
+  .c:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c.png);
+    display: block;
+    
+    animation: tslmove 3s ;
+    height:100px;width:100px;
+    top: 64%;
+  }
+  .cpp:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c++.png);
+    display: block;
+    height:100px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .python:hover ~ .display-img
+  {
+    background-image: url(imagesanime/python.png);
+    display: block;
+    height:100px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .html:hover ~ .display-img
+  {
+    background-image: url(imagesanime/html.png);
+    display: block;
+    height:100px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .css:hover ~ .display-img
+  {
+    background-image: url(imagesanime/css.png);
+    display: block;
+    height:100px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .django:hover ~ .display-img
+  {
+    background-image: url(imagesanime/django.png);
+    display: block;
+    height:87px;width:250px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .sql:hover ~ .display-img
+  {
+    background-image: url(imagesanime/sql.png);
+    display: block;
+    height:200px;width:200px;
+    top: 60%;
+    animation: tslmove 3s ;
+    
+  }
+  .networks:hover ~ .display-img
+  {
+    background-image: url(imagesanime/computer.png);
+    display: block;
+    height:200px;width:200px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .figma:hover ~ .display-img
+  {
+    background-image: url(imagesanime/figma.png);
+    display: block;
+    height:150px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+  .hack:hover ~ .display-img
+  {
+    background-image: url(imagesanime/hack.png);
+    display: block;
+    height:100px;width:100px;
+    top: 64%;
+    animation: tslmove 3s ;
+    
+  }
+   
+  /* media queries*/
+  @media screen and (max-width:1200px) {
+    .goback-test{
+        position: absolute;
+        width: 8%;
+        top: 2%;
+        left: 2%;
+    }
+    .headding-img{
+        width:80%;
+        margin-left:12%;
+        margin-top:4%;
+        margin-bottom:2%;
+    }
+    .networks:hover ~ .display-img{
+      top: 62.5%;
+        width: 150px;
+        height: 150px;
+    }
+    
+  }
+  @media screen and (max-width:1000px) {
+    .goback-test{
+        position: absolute;
+        width: 8%;
+        top: 2%;
+        left: 2%;
+    }
+    .headding-img{
+        width:80%;
+        margin-left:12%;
+        margin-top:4%;
+        margin-bottom:2%;
+    }
+    .animated{
+        width: 85%;
+        margin-bottom: 5%;
+    }
+  .cse:hover ~ .display-img
+  {
+    width: 300px;
+    background-image: url(imagesanime/cse.jpg);
+    display: block;
+    animation: mymove 3s ;
+    top :30%;
+  }
+  
+  .spvn:hover ~ .display-img
+  {
+    background-image: url(imagesanime/Picture1.jpg);
+    display: block;
+    width: 220px;
+    height: 140px;
+    animation: mymove 3s ;
+    
+  }
+  .vgn:hover ~ .display-img
+  {
+    top: 35%;
+    background-image: url(imagesanime/vgn.jpg);
+    display: block;
+    height: 120px;
+    width: 300px;
+    animation: mymove 3s ;
+    
+  }
+  .c:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c.png);
+    display: block;
+    animation: tslmove 3s ;
+    height:100px;width:100px;
+    top: 60%;
+    left: 50%;
+  }
+  .cpp:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c++.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    animation: tslmove 3s ;
+    left: 50%;
+    
+  }
+  .python:hover ~ .display-img
+  {
+    background-image: url(imagesanime/python.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    animation: tslmove 3s ;
+    left: 50%;
+  }
+  .html:hover ~ .display-img
+  {
+    background-image: url(imagesanime/html.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    animation: tslmove 3s ;
+    left: 50%;
+  }
+  .css:hover ~ .display-img
+  {
+    background-image: url(imagesanime/css.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    animation: tslmove 3s ;
+    left: 50%;
+  }
+  .django:hover ~ .display-img
+  {
+    background-image: url(imagesanime/django.png);
+    display: block;
+    height:87px;width:250px;
+    top: 60%;
+    animation: tslmove 3s ;
+    
+  }
+  .sql:hover ~ .display-img
+  {
+    background-image: url(imagesanime/sql.png);
+    display: block;
+    height:150px;width:150px;
+    top: 60%;
+    left: 50%;
+    animation: tslmove 3s ;
+    
+  }
+  .networks:hover ~ .display-img
+  {
+    background-image: url(imagesanime/computer.png);
+    display: block;
+    height:150px;width:150px;
+    top: 60%;
+    left: 50%;
+    animation: tslmove 3s ;
+    
+  }
+  .figma:hover ~ .display-img
+  {
+    background-image: url(imagesanime/figma.png);
+    display: block;
+    height:150px;width:100px;
+    top: 60%;
+    left: 50%;
+    animation: tslmove 3s ;
+    
+  }
+  .hack:hover ~ .display-img
+  {
+    background-image: url(imagesanime/hack.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 50%;
+    animation: tslmove 3s ;
+    
+  }
+  }
+  @media screen and (max-width:800px) {
+    @keyframes mymove {
+        from {left: 100px;}
+        to {left: 300px;}
+    }
+    @keyframes mmove {
+      from {left: 350px;}
+      to {left: 500px;}
+  }
+  .social-subcontainer1{
+    width:15%;
+}
+.social-subcontainer2{
+    width:15%;
+}
+.social-subcontainer3{
+    width:15%;
+}
+  .display-img{
+    left:350px ;
+  }
+  .cse:hover ~ .display-img
+  {
+    background-image: url(imagesanime/cse.jpg);
+    display: block;
+    top: 20%;
+    animation: mymove 3s ;
+    width: 300px;
+    height: 150px;
+  }
+    .animated{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .vgn:hover ~ .display-img{
+      top: 30%;
+      width: 270px;
+      height: 110px;
+    }
+    .django:hover ~ .display-img{
+        background-image: url(imagesanime/django.png);
+        top: 60%;
+        animation: mmove 3s ;
+        width:200px;
+        height: 70px;
+
+    }
+  .c:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c.png);
+    display: block;
+    animation: mmove 3s ;
+    height:100px;
+    width:100px;
+    top: 60%;
+    left: 55%;
+  }
+  .cpp:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c++.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .python:hover ~ .display-img
+  {
+    background-image: url(imagesanime/python.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .html:hover ~ .display-img
+  {
+    background-image: url(imagesanime/html.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .css:hover ~ .display-img
+  {
+    background-image: url(imagesanime/css.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+
+  .sql:hover ~ .display-img
+  {
+    background-image: url(imagesanime/sql.png);
+    display: block;
+    height:150px;width:150px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .networks:hover ~ .display-img
+  {
+    background-image: url(imagesanime/computer.png);
+    display: block;
+    height:150px;width:150px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .figma:hover ~ .display-img
+  {
+    background-image: url(imagesanime/figma.png);
+    display: block;
+    height:150px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .hack:hover ~ .display-img
+  {
+    background-image: url(imagesanime/hack.png);
+    display: block;
+    height:100px;width:100px;
+    top: 60%;
+    left: 55%;
+    animation: mmove 3s ;
+  }
+  @media screen and (max-width:650px)
+  {
+    @keyframes mmove{
+      from {left: 150px;}
+      to {left: 300px;}
+    }
+    .goback-test{
+        position: absolute;
+        width: 10%;
+        top: 2%;
+        left: 2%;
+    }
+    .social-subcontainer1{
+      width:17%;
+  }
+  .social-subcontainer2{
+      width:17%;
+  }
+  .social-subcontainer3{
+      width:17%;
+  }
+    .headding-img{
+        width:100%;
+        margin-left:1%;
+        margin-top:4%;
+        margin-bottom:2%;
+    }
+    .animated{
+        width: 70%;
+        margin-bottom: 5%;
+        margin-left:10%;
+    }
+    .navbar-test{
+        width:7%;
+    }
+    .cse:hover ~ .display-img
+  {
+    background-image: url(imagesanime/cse.jpg);
+    display: block;
+    background-size: contain;
+    top: 30%;
+    left: 30%;
+    animation: mymove 3s ;
+    width: 200px;
+    height: 100px;
+   
+  }
+  .vgn:hover ~ .display-img{
+    top: 35%;
+    left: 30%;
+  }
+  .spvn:hover ~ .display-img{
+    left: 30%;
+  }
+  .django:hover ~ .display-img{
+        background-image: url(imagesanime/django.png);
+        top: 47%;
+        animation: mmove 3s ;
+        width:200px;
+        height: 70px;
+    left: 30%;
+    }
+  .c:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c.png);
+    display: block;
+    animation: mmove 3s ;
+    height:50px;width:50px;
+    top: 55%;
+    left:58%;
+    z-index: 0;
+  }
+  .cpp:hover ~ .display-img
+  {
+    background-image: url(imagesanime/c++.png);
+    display: block;
+    height:70px;width:70px;
+    top: 46%;
+    animation: mmove 3s ;
+    z-index: 0;
+    
+  }
+  .python:hover ~ .display-img
+  {
+    background-image: url(imagesanime/python.png);
+    display: block;
+    height:100px;width:100px;
+    top: 55%;
+    animation: mmove 3s ;
+    
+  }
+  .html:hover ~ .display-img
+  {
+    background-image: url(imagesanime/html.png);
+    display: block;
+    height:100px;width:100px;
+    top: 57%;
+    animation: mmove 3s ;
+    z-index: 0;
+  }
+  .css:hover ~ .display-img
+  {
+    background-image: url(imagesanime/css.png);
+    display: block;
+    height:100px;width:100px;
+    top: 53%;
+    animation: mmove 3s ;
+    
+  }
+
+  .sql:hover ~ .display-img
+  {
+    background-image: url(imagesanime/sql.png);
+    display: block;
+    height:100px;width:100px;
+    top: 54%;
+    animation: mmove 3s ;
+    
+  }
+  .networks:hover ~ .display-img
+  {
+    background-image: url(imagesanime/computer.png);
+    display: block;
+    height:100px;width:100px;
+    top: 53%;
+    animation: mmove 3s ;
+    
+  }
+  .figma:hover ~ .display-img
+  {
+    background-image: url(imagesanime/figma.png);
+    display: block;
+    height:100px;width:67px;
+    top: 54%;
+    animation: mmove 3s ;
+    
+  }
+  .hack:hover ~ .display-img
+  {
+    background-image: url(imagesanime/hack.png);
+    display: block;
+    height:100px;width:100px;
+    top: 54%;
+    animation: mmove 3s ;
+  }
+    
+  }
+  @media screen and (max-width:500px)
+  {
+    .goback-test{
+        position: absolute;
+        width: 12%;
+        top: 2%;
+        left: 2%;
+    }
+    .headding-img{
+        width:90%;
+        margin-left:5%;
+        margin-top:5%;
+        margin-bottom:4%;
+    }
+    .animated{
+        width: 75%;
+        margin-bottom: 5%;
+    }
+    .navbar-test{
+        width:8%;
+        right: 2%;
+    }
+    
+    .h
+    {
+      font-size:35px;
+    }
+    .matter{
+      font-size:x-large
+    }
+    .social-subcontainer1{
+      width:17%;
+  }
+  .social-subcontainer2{
+      width:17%;
+  }
+  .social-subcontainer3{
+      width:17%;
+  }
+}
+}
+@media screen and (max-width:350px){
+  .social-subcontainer1{
+    width:20%;
+}
+.social-subcontainer2{
+    width:20%;
+}
+.social-subcontainer3{
+    width:20%;
+}
+
+}
