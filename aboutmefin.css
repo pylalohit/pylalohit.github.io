@@ -81,15 +81,19 @@ section {
       display:flex;
       justify-content:center;
       
+      
   }
   .social-subcontainer1{
       width:10%;
+      transition: .5s ;
   }
   .social-subcontainer2{
       width:10%;
+      transition: .5s ;
   }
   .social-subcontainer3{
       width:10%;
+      transition: .5s ;
   }
   .icons{
       width:100%;
