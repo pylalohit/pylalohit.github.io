@@ -124,16 +124,19 @@
 .social-subcontainer1{
     width: 100%;
     margin-left:auto ;
+    transition: .5s ;
 	
     
 }
 .social-subcontainer2{
     width: 100%;
     margin-left:auto ;
+    transition: .5s ;
 }
 .social-subcontainer3{
     width: 100%;
     margin-left:auto ;
+    transition: .5s ;
 }
 .social-container{
  	margin-top:50%;

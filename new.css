@@ -97,12 +97,15 @@
 }
 .social-subcontainer1{
     width:100%;
+    transition: .5s ;
 }
 .social-subcontainer2{
     width:100%;
+    transition: .5s ;
 }
 .social-subcontainer3{
     width:100%;
+    transition: .5s ;
 }
 .about-sub-span{
     margin-left: 70px;
