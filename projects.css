@@ -47,7 +47,8 @@
     background-size: cover;
     overflow: hidden;
     background-color: whitesmoke;
-    
+    transition: .5s ;
+
     border-radius: 1rem;
     position: relative;
     margin: 0.5rem;
